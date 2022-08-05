@@ -45,5 +45,19 @@ an input, the algorithm has linear time complexity (O(n)).
 The function has a loop that will iterate through the array until it finds the item 
 passed as an input.
 Since the function will determine the index of the element that is in the middle of 
-the array to reduce the 
+the array to reduce the number of elements that will have to be checked.
+This is an algorithm with logarithmic time complexity (O(log n)).
 
+9. Random element
+This is an algorithm with constant time complexity O(1).
+This function will generate a random number and return the element of the array that 
+has that index in the array passed as input.  
+It will always take the same time to complete, regardless of the number of elements 
+of the array. 
+
+10. What Am I?
+This function will check if the number passed as n is a prime number.
+If it is a prime number, the function will retun true. Otherwise, it will return false.
+Since the answer depends on checking if the number can be divided by any other interger, 
+the number of iterations will depend on the input.
+For that reason, this is an algorithm with constant time complexity O(1).
