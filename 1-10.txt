@@ -1,0 +1,49 @@
+1. What is the Big O for this?
+    1. Constant Time O(1)
+    2. Linear Time O(n)
+
+2. Even or odd
+Constant time O(1). 
+The algorithm will always take the same amount of time to complete, 
+regardless of the value passed as input.
+In this case, it only has to perform a basic arithmetic operation and check if 
+the value passed is an interger or odd number. 
+
+3. Are you here?
+Polynomial time O(n^k)
+In this case we have a nested loop that compares the elements of two arrays.
+So the time complexity will grow accordingly with the number of elements of the arrays
+passed as input. 
+
+4. Doubler
+Linear time O(n)
+The algorithm has a running time directly proportional to the size of the input.
+Since every element of the array will be multiplied by 2, 
+the growth rate will be proportional to the size of the input. 
+
+5. Naive search
+Linear time O(n)
+The algorithm will compare each element of the array with the value passed as input.
+For this reason, the number of steps will increase as the number of elements on the array.
+
+6. Creating pairs
+Polynomial time O(n^k)
+Since we have a nested loop, the algorithm requires 2 levels of looping over an input.
+
+7. Compute the sequence
+This function returns an array that will have as many elements as the value passed as
+an input. The elements will be added to the array through a loop that will have as 
+much iterations as the input.
+The first two elements will be defined by two if conditions. As for the rest of the 
+elements, their value will be calculated throw an addiction of two elements of the 
+result array. 
+Since the number of steps of this algorithm will increase as the number passed as 
+an input, the algorithm has linear time complexity (O(n)).
+
+
+8. An efficient search
+The function has a loop that will iterate through the array until it finds the item 
+passed as an input.
+Since the function will determine the index of the element that is in the middle of 
+the array to reduce the 
+
